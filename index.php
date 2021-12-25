@@ -38,10 +38,8 @@ integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+
   <div class="col-md-3">
   <select class="form-control text-right" id="exampleFormControlSelect1">
     <option selected>Select Language</option>
-    <option>2</option>
-    <option>3</option>
-    <option>4</option>
-    <option>5</option>
+    <option>English</option>
+    
   </select>
 </div>
 </div>
@@ -97,10 +95,10 @@ background-size: cover;padding: 14px 152px 147px 149px;" >
     <div class="text-center">
    <h3 style="color: #fff;"> INSTANT CALCULATOR</h3>
   <h4 style="color: #fff;">You get the Real Exchange Rate</h4>
-  <div style="padding: 12px;">
+  <div style="padding: 12px;">  
     <div class="input-group">
       <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Send " >
-      <input type="text" class="form-control" aria-label="Text input with dropdown button" value="1000" >
+      <input type="text" class="form-control" aria-label="Text input with dropdown button" value="1000" style="font-weight:700; text-align:right;" >
       <div class="input-group-append" >
        <select name="countries" id="countries" is="ms-dropdown" data-child-height="315">
     <option value='ad' data-image="images/uae.png" data-title="Andorra">AED</option>
@@ -111,6 +109,8 @@ background-size: cover;padding: 14px 152px 147px 149px;" >
     </div><br>
     <div class="input-group">
       <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Receive">
+      <input type="text" class="form-control" aria-label="Text input with dropdown button" value="19.9084" style="font-weight:700;text-align:right;" >
+
       <div class="input-group-append">
         <select name="countries" id="countries" is="ms-dropdown" data-child-height="315">
         <option value='ad' data-image="images/india.png" data-title="Andorra">INR</option>
@@ -420,7 +420,7 @@ background-repeat: no-repeat;background-position: right bottom; background-size:
   </div>
 </div>
 </div>
-<div class="container-fluid" style=" background-size:cover;background:linear-gradient(0deg, rgba(10, 83, 160, 0.801), rgba(10, 83, 160, 0.801)),url(images/whoweare.jpg); background-repeat: no-repeat;padding: 65px; ">
+<div class="container-fluid" style=" background-size:cover;background:linear-gradient(0deg, rgba(10, 83, 160, 0.801), rgba(10, 83, 160, 0.801)),url(images/aboutus.jpg); background-repeat: no-repeat;padding: 65px; ">
   <div class="row">
     <div class="col-md-3">
       <img src="images/footerlogo.png"><br><br>
